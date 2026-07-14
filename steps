@@ -1,0 +1,52 @@
+- Create uv environment
+- create the RAG system
+ - Function
+    - create_chunks
+    - vectorize and store/Embed and store
+- Setup FastAPI
+- Create the retriever (Vectorize question -> Compare and get k top embedding -> System prompt -> Send to LLM)
+ - Func1: Vectorize -> Compare -> return k top embeddings text
+ - Func2: Generate system prompt -> Send to LLM -> return response
+- Setup twilio
+- Setup an API key for LLM
+- Setup Whatsapp workflow
+   - Get document
+- No VectorDB (User send document "Error"/ Friendly message)
+- Send LLM response
+
+
+
+
+
+
+
+## Decisions & Considerations
+1. Which text splitter is used ?
+    - Consider which params are suitable
+2. Which vector database is used ?
+3. Which embedding model is used ?
+4. Which model is used for API requests ?
+5. For the retriever what similarity check is used ?
+6. Which platform will store my vectorDB ?
+7. How will I know which vectorDB to use ?
+ - Do I delete the vectorDB are use ?
+
+
+
+## Repo required
+- README
+- Architecture diagram
+- Screenshots
+- Docker support
+- Tests
+- Deployment instructions
+
+## Installed
+ langchain
+ langchain-community
+ langchain_chroma
+ langchain_google_genai
+ pypdf
+ fastapi
+ pydantic-settings
+ fastapi
