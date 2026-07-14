@@ -1,0 +1,32 @@
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+.env
+
+# =========================
+# IDEs and Editors
+# =========================
+.idea/
+
+# =========================
+# Databases & Local Data
+# =========================
+chroma_db/
+documents/
+
+# =========================
+# Python Cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Excluded Project Files
+# =========================
+experiment.py
